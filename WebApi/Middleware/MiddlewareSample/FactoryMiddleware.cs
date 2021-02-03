@@ -1,8 +1,15 @@
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
+
 namespace MiddlewareSample
 {
     public static class MiddlewareExrensions
     {
-        public static IApplicationBuilder UseFactoryActivatedMiddleware(IApplicationBuilder builder)
+        public static IApplicationBuilder UseFactoryActivatedMiddleware(this IApplicationBuilder builder)
         {
             return builder.UseMiddleware<FactoryActivatedMiddleware>();
         }

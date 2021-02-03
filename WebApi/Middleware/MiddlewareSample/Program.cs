@@ -1,13 +1,15 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace MiddlewareSample
 {
-    public class Startup
+        public class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -16,16 +18,17 @@ namespace MiddlewareSample
 
         public IConfiguration Configuration { get; }
 
-         public void ConfigureServices(IServiceCollection services)
-         {
-             services.UseFactoryActivatedMiddleware();
-         }
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddTransient<FactoryActivatedMiddleware>();
+        }
         public void Configure(IApplicationBuilder app)
         {
-            app.FactoryActivatedMiddleware();
+            app.UseFactoryActivatedMiddleware();
             app.UseMiddleware<ConventionalMiddleware>();
         }
     }
+
     public class Program
     {
         public static void Main(string[] args)
