@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ByteLength
+namespace ByteLengthSample
 {
     class Program
     {

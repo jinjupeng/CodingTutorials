@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace yield
+namespace yield_sample
 {
     class Program
     {

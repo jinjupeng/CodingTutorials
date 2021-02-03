@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AsyncAwait
+namespace AsyncSample
 {
     class Program
     {

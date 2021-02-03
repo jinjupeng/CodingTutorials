@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractClass
+namespace AbstractClassSample
 {
     public abstract class AbClass // 抽象类
     {

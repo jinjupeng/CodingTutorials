@@ -1,6 +1,6 @@
 using System;
 
-namespace GC
+namespace GCSample
 {
     /// <summary>
     /// 标准Dispose模式

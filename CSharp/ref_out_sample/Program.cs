@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ref_out
+namespace ref_out_sample
 {
    class Program
     {
