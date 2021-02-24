@@ -8,6 +8,12 @@ namespace TestDemo.ExpressionTree
     public class UosoExpressionParser<T> where T : class
     {
         private ParameterExpression parameter;
+
+        public UosoExpressionParser()
+        {
+            parameter = Expression.Parameter(typeof(T));
+        }
+        
         public Expression<Func<T, bool>> ParserConditions(IEnumerable<UosoConditions> conditions)
         {
             // 将条件转化成表达式的Body
