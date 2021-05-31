@@ -13,14 +13,5 @@ namespace MVCSample.Context
         {
         }
 
-        public void AddFundModels(List<FundModel> fundModels)
-        {
-            FundModels.AddRange(fundModels);
-        }
-
-        public List<FundModel> GetFundModels()
-        {
-            return FundModels.Local.ToList();
-        }
     }
 }
