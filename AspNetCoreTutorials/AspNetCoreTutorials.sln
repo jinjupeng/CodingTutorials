@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareSample", "Middleware\MiddlewareSample\MiddlewareSample.csproj", "{0F76B84D-1721-4AA7-A834-DF16067C2A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSample", "MVCSample\MVCSample.csproj", "{53F23961-98C5-44D2-AF7B-DC5A409462AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCSample", "MVCSample\MVCSample.csproj", "{53F23961-98C5-44D2-AF7B-DC5A409462AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{FB37B78A-6AED-4D39-A2FD-899D5DDBA728}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{53F23961-98C5-44D2-AF7B-DC5A409462AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F23961-98C5-44D2-AF7B-DC5A409462AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F23961-98C5-44D2-AF7B-DC5A409462AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB37B78A-6AED-4D39-A2FD-899D5DDBA728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB37B78A-6AED-4D39-A2FD-899D5DDBA728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB37B78A-6AED-4D39-A2FD-899D5DDBA728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB37B78A-6AED-4D39-A2FD-899D5DDBA728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
