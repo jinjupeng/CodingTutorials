@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitSample", "AsyncAwaitSample\AsyncAwaitSample.csproj", "{C746F218-CA28-4B9C-877B-468D61C26273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskSample", "AsyncAwaitSample\TaskSample.csproj", "{C746F218-CA28-4B9C-877B-468D61C26273}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteLengthSample", "ByteLengthSample\ByteLengthSample.csproj", "{FF014EC3-B487-4BBD-B2AD-9FD629210695}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yield_sample", "yield_sample\yield_sample.csproj", "{ED99BB76-20E1-43EC-BC09-2D5FD8B31655}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClassSample\AbstractClass.csproj", "{EA2E8C05-4040-4B1C-B4FE-FE3E67C42494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadingSample", "MultiThreadingSample\MultiThreadingSample.csproj", "{25080022-EEA2-4C83-BFCB-DE47525CB495}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{EA2E8C05-4040-4B1C-B4FE-FE3E67C42494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA2E8C05-4040-4B1C-B4FE-FE3E67C42494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA2E8C05-4040-4B1C-B4FE-FE3E67C42494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25080022-EEA2-4C83-BFCB-DE47525CB495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25080022-EEA2-4C83-BFCB-DE47525CB495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25080022-EEA2-4C83-BFCB-DE47525CB495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25080022-EEA2-4C83-BFCB-DE47525CB495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
